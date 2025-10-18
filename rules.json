@@ -1,0 +1,14 @@
+[
+  {
+    "name": "block_ssh",
+    "action": "block",
+    "protocol": "TCP",
+    "dst_port": 22
+  },
+  {
+    "name": "alert_dns",
+    "action": "alert",
+    "protocol": "UDP",
+    "dst_port": 53
+  }
+]
